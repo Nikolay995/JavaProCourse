@@ -1,0 +1,20 @@
+{
+    "name": "Jason",
+    "age": "25",
+    "phone": [
+        "8255001543",
+        "9380770087",
+        "9380770187"
+    ],
+    "hobbies": [
+        "music",
+        "sports",
+        "cooking"
+    ],
+    "adress": {
+        "country": "UA",
+        "city": "Kyiv",
+        "street": "narrow",
+        "house": 7123
+    }
+}
