@@ -1,7 +1,4 @@
-package xml_json.json_parsing;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+package xml_json.json_parsing.person_example;
 
 import java.io.File;
 

@@ -1,4 +1,4 @@
-package xml_json.json_parsing;
+package xml_json.json_parsing.person_example;
 
 import java.util.Arrays;
 
