@@ -7,7 +7,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 class Service {
-
      static String performRequest(String urlAddress) throws IOException {
         StringBuilder result = new StringBuilder();
         try {

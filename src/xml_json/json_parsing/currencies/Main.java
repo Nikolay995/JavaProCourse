@@ -30,6 +30,7 @@ public class Main {
             DecimalFormat df = new DecimalFormat("#.00");
             System.out.println("\n"+val + " " + curr + " = "+ df.format(res) + " UAH");
 
+
         } catch (IOException e) {
             e.printStackTrace();
         }
