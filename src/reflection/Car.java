@@ -7,9 +7,6 @@ public class Car {
     private String model;
     private int maxSpeed; // km/h
 
-    void move(){
-        System.out.println("Car is moving!");
-    }
     Car() {
     }
 

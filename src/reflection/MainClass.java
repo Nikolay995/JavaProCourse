@@ -1,6 +1,5 @@
 package reflection;
 
-import java.io.FileWriter;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -17,9 +16,6 @@ public class MainClass {
             speed.setAccessible(true);
             speed.setInt(car,200);
             System.out.println("MaxSpeed after: "+car.getMaxSpeed());
-            System.out.println(line);
-            Method moveMethod = cls.getMethod("move");
-            moveMethod.invoke(car,null);
             System.out.println(line);
             int modifier = cls.getModifiers();
             System.out.println(modifier);
@@ -38,7 +34,10 @@ public class MainClass {
         System.out.println(line);
         for (Method method : methods) {
             System.out.println(method);
-
+            Class<?>[] paramTypes = method.getParameterTypes();
+            for (Class<?> paramType : paramTypes) {
+                System.out.println(paramType.getName());
+            }
         }
     }
 }
