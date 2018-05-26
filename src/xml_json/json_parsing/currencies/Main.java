@@ -16,7 +16,7 @@ public class Main {
         try {
             response = Service.performRequest(request);
             currency= gson.fromJson(response, Currency.class);
-            Double baseCurrency = currency.getRates().get("UAH");
+            Double baseCurrency = currency.getRates().get("USD");
 
             System.out.print("Введите нужную валюту (EUR/USD/...): ");
             curr = new Scanner(System.in).next().toUpperCase();
